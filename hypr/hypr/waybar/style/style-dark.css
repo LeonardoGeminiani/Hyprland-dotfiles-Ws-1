@@ -101,6 +101,7 @@ tooltip {
 #custom-weather,
 #custom-power,
 #custom-lock,
+#custom-layout,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
 #custom-weather.clearNight,
@@ -115,8 +116,6 @@ tooltip {
   padding: 0px 10px;
   border-radius: 10px;
 }
-
-
 
 #temperature.critical {
   background-color: #ff0000;
