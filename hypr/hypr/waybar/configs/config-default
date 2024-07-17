@@ -40,6 +40,7 @@
 	//"wireplumber", 
 	"pulseaudio#microphone",
 	"keyboard-state",
+	"custom/layout",
 	"custom/power",
 	],
 }

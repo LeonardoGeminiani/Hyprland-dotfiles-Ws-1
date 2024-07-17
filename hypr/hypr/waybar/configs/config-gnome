@@ -41,6 +41,7 @@
 	//"wireplumber", 
 	"pulseaudio#microphone", 
 	"custom/cycle_wall",
+	"custom/layout",
 	"custom/power",
 	],
 }

@@ -39,6 +39,7 @@
 	"custom/updater",
 	"keyboard-state", 
 	"custom/cycle_wall",
+	"custom/layout",
 	"custom/power",
 	],
 }

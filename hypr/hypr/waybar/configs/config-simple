@@ -26,7 +26,8 @@
 	"keyboard-state", 
 	"pulseaudio", 
 	"bluetooth", 
-	"network", 
+	"network",
+	"custom/layout", 
 	"battery",
 	],
 
