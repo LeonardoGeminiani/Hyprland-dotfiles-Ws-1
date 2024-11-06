@@ -26,5 +26,5 @@ while true; do
 done
 # waybar loaded...
 
-sleep 2 #to wait system tray load
-megasync &
+sleep 7; #to wait system tray load
+env QT_QPA_PLATFORM="" megasync &
