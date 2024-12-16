@@ -27,4 +27,9 @@ done
 # waybar loaded...
 
 sleep 7; #to wait system tray load
+
+#xp pen driver
+/usr/lib/pentablet/PenTablet.sh &
+
+# megasync
 env QT_QPA_PLATFORM="" megasync &

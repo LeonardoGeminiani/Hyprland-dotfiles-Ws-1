@@ -5,3 +5,4 @@ stow -t ~/.config -S xsettingsd
 stow -t ~/.config -S htop
 stow -t ~/.config -S foot
 stow -t ~/.config -S btop
+stow -t ~/.config -S xppen
