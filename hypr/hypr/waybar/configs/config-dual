@@ -28,14 +28,14 @@
 
 "modules-right": [
 	"custom/weather",	  
-	"battery", 
+	"custom/leds",
 	"backlight",
 	"bluetooth",
 	"network",
 	"custom/updater",
 	"custom/cycle_wall",
 	"custom/layout",
-	"custom/lock", 
+	"custom/lock"
 	],
 },
 

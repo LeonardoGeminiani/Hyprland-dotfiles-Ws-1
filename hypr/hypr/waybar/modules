@@ -335,6 +335,15 @@
   "exec": "$HOME/.config/hypr/scripts/waybarKeyboardLayout.sh",
   "restart-interval": 1,
   "tooltip": false
+},
+
+"custom/leds":{
+  "format": "󰌬 Leds",
+  "on-click": "$HOME/.config/hypr/scripts/LedControl.sh",
+  "return-type": "json",
+  "interval": 15,
+  "tooltip": false,
 }
+  
 
 }
