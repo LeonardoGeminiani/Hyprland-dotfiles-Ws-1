@@ -2,6 +2,9 @@
 
 SCRIPTSDIR=$HOME/.config/hypr/scripts
 
+# set pc led to off
+openrgb -p Off
+
 # Kill already running process
 _ps=(waybar mako dunst)
 for _prs in "${_ps[@]}"; do
