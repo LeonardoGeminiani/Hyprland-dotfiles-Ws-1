@@ -22,7 +22,7 @@
   - right click on update   waybar module  *wallpaper cycle using swaybg* (no animations)
   
   - To change permanently the wallpaper edit the file in *~/.config/hypr/configs/Execs.conf*
-  - For a persistent wallpaper after dark-light mode, edit your Execs.conf. Either delete or put # before exec-once=swww query | swww init and delete the # before exec-once = swww init (Lines 6 and 7 on Execs.conf )
+  - For a persistent wallpaper after dark-light mode, edit your Execs.conf. Either delete or put # before exec-once=swww query | swww-daemon and delete the # before exec-once = swww-daemon (Lines 6 and 7 on Execs.conf )
   
   - for the wallpaper styles and configurations, you can watch my video about it *https://youtu.be/6ZGzOjMJBe4*
   

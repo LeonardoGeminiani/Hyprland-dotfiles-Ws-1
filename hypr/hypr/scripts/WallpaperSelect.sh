@@ -53,7 +53,7 @@ menu(){
     printf "$RANDOM_PIC_NAME"
 }
 
-swww query || swww init
+swww query || swww-daemon & disown
 
 main() {
     choice=$(menu | ${wofi_command})

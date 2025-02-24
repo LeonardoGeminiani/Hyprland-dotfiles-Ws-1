@@ -20,7 +20,7 @@ dark_gtk_theme="catppuccin-mocha-blue-standard+default"
 pkill swaybg
 
 # Initialize swww if needed
-swww query || swww init
+swww query || swswww-daemon & disown
 
 # Set swww options
 swww="swww img"

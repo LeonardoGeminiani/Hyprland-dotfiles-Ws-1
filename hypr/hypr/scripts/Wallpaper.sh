@@ -6,13 +6,14 @@ RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
 
 change_swaybg(){
   pkill swww
+  pkill swww-daemon
   pkill swaybg
   swaybg -m fill -i ${RANDOMPICS}
 }
 
 change_swww(){
   pkill swaybg
-  swww query || swww init
+  swww query || swww-daemon & disown
   swww img ${RANDOMPICS} --transition-fps 30 --transition-type any --transition-duration 3
 }
 
