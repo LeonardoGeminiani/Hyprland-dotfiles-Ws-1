@@ -54,8 +54,9 @@
 "margin-bottom": 6,
 
 "modules-left": [
-	"custom/menu",  
+	"custom/menu", 
 	"wlr/taskbar",
+	"custom/tasks"
 	 ],
 
 "modules-center": [

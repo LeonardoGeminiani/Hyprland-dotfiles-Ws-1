@@ -343,6 +343,13 @@
   "return-type": "json",
   "interval": 15,
   "tooltip": false,
+},
+
+"custom/tasks" : {
+  "format": "{}",
+  "return-type": "json",
+  "exec":  "~/.config/tasks/waybar_GetCurrentTask.py",
+  "restart-interval": 2
 }
   
 
