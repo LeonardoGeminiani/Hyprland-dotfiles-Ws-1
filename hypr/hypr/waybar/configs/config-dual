@@ -1,6 +1,7 @@
 [
 	{
 		"output": ["DP-2"],
+		"name": "bar1",
 		"include": "~/.config/hypr/waybar/modules",
 		"layer": "top",
 		//"mode": "dock",
@@ -38,7 +39,8 @@
 		],
 	},
 	{
-		"output": ["DP-2"], 
+		"output": ["DP-2"],
+		"name": "bar2",
 		"include": "~/.config/hypr/waybar/modules",
 		"layer": "top",
 		"mode": "dock",
@@ -71,7 +73,8 @@
 		],
 	},
 	{
-		"output": ["HDMI-A-1"], 
+		"output": ["HDMI-A-1"],
+		"name": "bar3",
 		"include": "~/.config/hypr/waybar/modules",
 		"layer": "top",
 		"mode": "dock",

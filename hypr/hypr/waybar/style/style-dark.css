@@ -36,7 +36,7 @@ tooltip {
 .modules-center {
   background-color: #373737;
   /* border: 1px solid #191919; */
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 
 .modules-left {
@@ -150,4 +150,8 @@ tooltip {
 #image {
   padding: 0px;
   margin: 0px;
+}
+
+window.bar2#waybar .modules-center{
+  border-radius: 0px;
 }
