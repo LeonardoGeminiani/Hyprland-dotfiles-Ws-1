@@ -35,8 +35,8 @@ tooltip {
 
 .modules-center {
   background-color: #373737;
-  border: 0px solid #373737;
-  border-radius: 10px;
+  /* border: 1px solid #191919; */
+  /* border-radius: 10px; */
 }
 
 .modules-left {
@@ -139,4 +139,15 @@ tooltip {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+#custom-tidal {
+  /* font-size: 14px; */
+  margin-left: 5px;
+  margin-right: 7px;
+}
+
+#image {
+  padding: 0px;
+  margin: 0px;
 }

@@ -350,7 +350,19 @@
   "return-type": "json",
   "exec":  "~/.config/tasks/waybar_GetCurrentTask.py",
   "restart-interval": 2
+},
+
+"custom/tidal" : {
+  "format": "{}",
+  "return-type": "json",
+  "exec":  "~/.config/hypr/scripts/tidal_waybar.py",
+  "restart-interval": 2
+},
+
+"image#tidal" : {
+  "path":  "/tmp/_tidal_img.jpg",
+  "size": 32,
+  "interval": 1
 }
-  
 
 }
