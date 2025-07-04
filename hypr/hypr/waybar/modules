@@ -362,7 +362,7 @@
 "image#tidal" : {
   "path":  "/tmp/_tidal_img.jpg",
   "size": 32,
-  "interval": 1
+  "interval": 2
 }
 
 }

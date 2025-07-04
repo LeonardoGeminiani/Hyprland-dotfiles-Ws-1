@@ -33,7 +33,10 @@ try:
         dots = True
 
     title = data["title"][:TRIM_DIM]
-    print_data( html.escape(title) + ('…' if dots else ''), html.escape(data["artists"]))
+    print_data(
+        html.escape(title) + ('…' if dots else ''), 
+        f" <span size='large'>{html.escape(data["title"])}</span> \n <span color='#b8b8b8'><small>{html.escape(data["artists"])}</small></span> "
+    )
 
 except:
     if os.path.exists(ICON_PATH):
